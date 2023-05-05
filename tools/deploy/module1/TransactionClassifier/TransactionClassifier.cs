@@ -18,9 +18,9 @@ namespace TransactionClassification
 {
     public static class TransactionClassifier
     {
-        private const string prompt = @"You are a data expert working for the National Library of Scotland.
-You are analysing all transactions over £25,000 in value and classifying them into one of five categories.
-The five categories are Building Improvement, Literature & Archive, Utility Bills, Professional Services and Software/IT.
+        private const string prompt = @"You are a financial crimes investigator working for the banking institution.
+You are analysing all transactions and classifying the supplier into one of four categories.
+The four categories are entity, individual, location, vessel.
 If you can't tell what it is, say Could not classify
 
 Transaction:
